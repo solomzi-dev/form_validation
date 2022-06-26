@@ -30,3 +30,11 @@ form input {
     font-size: 17px;
     border-radius: 5px;
 }
+
+.success {
+    border: 1px solid greenyellow;
+}
+
+.error {
+    border: 1px solid orangered;
+}
