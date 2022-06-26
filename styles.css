@@ -31,10 +31,25 @@ form input {
     border-radius: 5px;
 }
 
-.success {
-    border: 1px solid greenyellow;
+.valid {
+    border-color: #36cc36;
 }
 
-.error {
-    border: 1px solid orangered;
+.invalid {
+    border-color: orangered;
+}
+
+input + p {
+    font-size: .9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: orangered;
+    opacity: 0;
+    height: 0;
+}
+
+input.invalid + p {
+    opacity: 1;
+    height: auto;
 }
